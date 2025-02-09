@@ -1,0 +1,13 @@
+train: "D:\\yolo11\\dataset\\train"
+val: "D:\\yolo11\\dataset\\valid"
+test: "D:\\yolo11\\dataset\\test"
+
+nc: 5
+names: ['circle', 'flower', 'square', 'star', 'triangle']
+
+roboflow:
+  workspace: lin-njbs5
+  project: box2_6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lin-njbs5/box2_6/dataset/1
